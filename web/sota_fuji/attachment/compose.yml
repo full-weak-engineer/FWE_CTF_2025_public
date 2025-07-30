@@ -1,0 +1,20 @@
+services:
+  proxy:
+    build:
+      context: ./proxy
+      args:
+        - WEB_HOST=web
+        - WEB_PORT=4001
+    ports:
+      - 4000:4000
+    networks:
+      - sotafuji
+  web:
+    build:
+      context: ./web
+      args:
+        - FLAG=fwectf{fake_flag}
+    networks:
+      - sotafuji
+networks:
+  sotafuji:

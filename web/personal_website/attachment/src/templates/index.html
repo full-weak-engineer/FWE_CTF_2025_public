@@ -1,0 +1,9 @@
+{% extends "templates/base.html" %}
+
+{% block content %}
+<h1>Welcome {{ g.get('user').username }}!</h1>
+<p>Below is your current configuration:</p>
+<pre>{{ g.get('user').config | tojson }}</pre>
+<a href="{{ url_for('config') }}">Edit config</a><br>
+<a href="{{ url_for('logout') }}">Logout</a>
+{% endblock %}

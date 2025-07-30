@@ -1,0 +1,12 @@
+FROM node:23-alpine3.20
+
+WORKDIR /app
+
+ARG WEB_HOST
+ARG WEB_PORT
+ENV WEB_HOST=${WEB_HOST}
+ENV WEB_PORT=${WEB_PORT}
+
+COPY . .
+
+CMD ["npm", "start"]

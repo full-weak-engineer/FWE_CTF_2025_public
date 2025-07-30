@@ -1,0 +1,9 @@
+services:
+  mitmweb:
+    build:
+      context: .
+      args:
+        - FLAG=fwectf{fake_flag}
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
