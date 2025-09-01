@@ -1,0 +1,33 @@
+{% extends "templates/base.html" %} {% block content %}
+<h1>Configuration</h1>
+<form method="POST" enctype="application/json" id="form">
+  <label for="mode">Light mode:</label>
+  <input
+    type="text"
+    id="mode"
+    name="mode"
+    value="{{ g.get('user').config.mode }}"
+  />
+  <br />
+  <button type="submit" id="submit">Update Config</button>
+</form>
+<div id="message"></div>
+<a href="{{ url_for('index') }}">Back to home</a>
+<script>
+  document.getElementById("submit").addEventListener("click", async (e) => {
+    e.preventDefault();
+    const form = document.getElementById("form");
+    const res = await fetch("/api/config", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        config: {
+          mode: form.mode.value,
+        },
+      }),
+    });
+  });
+</script>
+{% endblock %}

@@ -1,0 +1,7 @@
+services:
+  guide_heap_dist:
+    build: .
+    ports:
+      - 5000:5000
+    privileged: true
+    restart: unless-stopped

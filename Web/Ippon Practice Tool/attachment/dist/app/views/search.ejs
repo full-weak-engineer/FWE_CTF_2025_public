@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your answer</title>
+    <style nonce="<%= nonce %>">
+      body {
+        font-family: sans-serif;
+        max-width: 800px;
+        margin: 2em auto;
+      }
+      label {
+        display: block;
+        margin-top: 1em;
+      }
+      button {
+        margin-top: 1.5em;
+      }
+      #msg {
+        margin-top: 1em;
+        color: red;
+      }
+      
+      div.content {
+          padding: 16px 8px;
+      }      
+    </style>
+  </head>
+  <body>
+    <h1>Search result</h1>
+    <form action="/search">
+      <input type="text" name="q" required />
+      <button type="submit">Search</button>
+    </form>
+    <ul class="list-group">
+      <% answers.forEach(a => { %>
+      <li>
+        <a href="/answer/<%= a.id %>"><%= a.text %></a>
+        <small>
+          <%= new Date(a.created_at).toLocaleString({ year: 'numeric', month:
+          '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }) %>
+        </small>
+      </li>
+      <% }) %>
+    </ul>
+
+  </body>
+</html>

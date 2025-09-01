@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ippon Practice Tool</title>
+    <style nonce="<%= nonce %>">
+      body {
+        font-family: sans-serif;
+        max-width: 800px;
+        margin: 2em auto;
+      }
+      label {
+        display: block;
+        margin-top: 1em;
+      }
+      button {
+        margin-top: 1.5em;
+      }
+      #msg {
+        margin-top: 1em;
+        color: red;
+      }
+      
+      div.content {
+          padding: 16px 8px;
+      }      
+    </style>
+  </head>
+  <body>
+    <h1>Ippon Practice Tool</h1>
+    <h2>Upload new answer</h2>
+    <form action="/answer" method="POST">
+      <label>
+        Odai:
+        <select name="odai" required>
+          <% for(let o of odai) { %>
+          <option value="<%= o.id %>"><%= o.text %></option>
+          <% } %>
+        </select>
+      </label>
+      <label>
+        Answer:
+        <textarea id="answer" type="text" name="answer" required></textarea>
+      </label>
+      <label>
+        Private:
+        <input id="private" type="checkbox" name="private" value="true">
+      </label>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    <form action="/search">
+      <input type="text" name="q" required />
+      <button type="submit">Search your answers</button>
+    </form>
+
+    <section>
+      <h2>Answers</h2>
+      <% if (answers.length === 0) { %>
+      <p>There's no answer yet.</p>
+      <% } else { %>
+      <ul class="list-group">
+        <% answers.forEach(a => { %>
+        <li>
+          <a href="/answer/<%= a.id %>"><%= a.text %></a>
+          <br>
+          <p><%=a.content %></p>
+          <br>
+          <small>
+            by <%=a.username%>, at <%= new Date(a.created_at).toLocaleString({ year: 'numeric', month:
+            '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }) %>
+          </small>
+        </li>
+        <% }) %>
+      </ul>
+      <% } %>
+    </section>
+  </body>
+</html>

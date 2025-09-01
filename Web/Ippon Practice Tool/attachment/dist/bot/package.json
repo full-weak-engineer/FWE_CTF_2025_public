@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0",
+    "playwright-firefox": "^1.54.2",
+    "express-rate-limit": "^8.0.1"
+  }
+}

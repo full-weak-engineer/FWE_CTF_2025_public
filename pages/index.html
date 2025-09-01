@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <img class="w-100 mx-auto d-block" style="max-width: 300px;padding: 50px;padding-top: 14vh;image-rendering: pixelated;" src="/files/27fcd0ae645bbe958a8f40732ae7e1cb/broken_64.png" />
+        <h3 class="text-center" style="font-family: PixelMplus10, Lato, sans-serif; font-size: 48px; line-height: 1.6em">Full Weak Engineer<br>CTF 2025</h3>
+      <h4 id="time" class="text-center" style="font-family: PixelMplus10, Lato, sans-serif; font-size: 28px;"></h4>
+        <h4 class="text-center" style="line-height: 2em">Join our <a href="https://discord.gg/gRX4HHPpvg"><i class="fab fa-discord" aria-hidden="true"></i>Discord server</a></h4>
+    </div>
+</div>
+<script>
+  var ctfStart = new Date("{{ ctf_start }}").getTime();
+  var ctfEnd = new Date("{{ ctf_end }}").getTime();
+
+  var x = setInterval(function () {
+    var now = new Date().getTime();
+    var distance = ctfStart - now;
+    var prefix = "CTF starts in: ";
+    if(distance < 0) {
+      distance = ctfEnd - now;
+      if(distance < 0) {
+        document.getElementById("time").textContent = "CTF has ended";
+        return;
+      }
+      prefix = "CTF ends in: "
+    }
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("time").textContent = prefix +
+      days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  }, 1000);
+</script>

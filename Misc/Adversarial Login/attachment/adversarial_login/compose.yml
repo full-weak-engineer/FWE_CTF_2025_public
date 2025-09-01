@@ -1,0 +1,8 @@
+services:
+  adversarial_login:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - FLAG=fwectf{fake_flag}

@@ -1,0 +1,17 @@
+services:
+  web:
+    build: ./app
+    restart: always
+    ports:
+      - 3000:3000
+    environment:
+      - PORT=3000
+      - REPORT_URL=http://localhost:1337/report
+  bot:
+    build: ./bot
+    restart: always
+    ports:
+      - 1337:1337
+    environment:
+      - APP_URL=http://web:3000
+      - FLAG=fwectf{fake_flag}

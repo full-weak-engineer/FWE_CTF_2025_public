@@ -1,0 +1,25 @@
+services:
+  flask:
+    build: ./app
+    networks:
+      - app
+    ports:
+      - "8080:8080"
+    environment:
+      - FLAG=fwectf{fake_flag}
+      - ADMIN_PASSWORD=admin_pass
+      - TEST_COUPON=test_coupon
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/cert.pem:/etc/nginx/cert.pem
+      - ./nginx/key.pem:/etc/nginx/key.pem
+    ports:
+      - "443:443"
+    depends_on:
+      - flask
+    networks:
+      - app
+networks:
+  app:

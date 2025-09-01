@@ -1,0 +1,15 @@
+Publicly sharing solutions, flags, or hints before the CTF ends
+Sharing solutions, flags, or hints between different teams, or asking other competitors for those information
+Brute forcing flags on CTF platform
+Misusing knowledge gained in this CTF on any external site not managed by you
+Intentional attacks on the CTF platform
+Using automated enumeration tools that overload the challenge servers (including, but not limited to dirbuster, sqlmap)
+Any behavior that disturbs other teams or the CTF organizers
+Notes
+There is no limit on the size of your team.
+Problem statements and announcements will be provided in both Japanese and English.
+Some challenges may slightly favor Japanese speakers; no compensation will be provided for this disadvantage.
+Start and end times may shift due to infrastructure issues. Announcements will be made on the CTF platform and Discord.
+The CTF organizers reserve the final right to interpret the rules.
+There is no prize for the winner. Sorry!
+fwectf{DummyDummyDummy}

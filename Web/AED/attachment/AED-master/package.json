@@ -1,0 +1,11 @@
+{
+  "name": "fwe-ctf-app",
+  "type": "module",
+  "dependencies": {
+    "hono": "^4.5.0",
+    "ipaddr.js": "^2.1.0"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  }
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adversarial Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      body { background: #f6f8fb; }
+      .card { border: none; border-radius: 1rem; box-shadow: 0 6px 24px rgba(0,0,0,.06); }
+      .brand { font-weight: 700; letter-spacing: .5px; }
+      .help-text { font-size: .925rem; color: #6c757d; }
+      .img-preview { max-width: 100%; max-height: 240px; border-radius: .5rem; display: none; }
+      #username { cursor: not-allowed; }
+    </style>
+  </head>
+  <body>
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+          <div class="text-center mb-4">
+            <div class="brand h3 mb-1">Adversarial Login</div>
+            <div class="text-muted">Upload an image to attempt login</div>
+          </div>
+
+          {% with messages = get_flashed_messages() %}
+            {% if messages %}
+              <div class="mb-3">
+                {% for msg in messages %}
+                  <div class="alert alert-warning mb-2" role="alert" style="white-space: pre-line;">{{ msg }}</div>
+                {% endfor %}
+              </div>
+            {% endif %}
+          {% endwith %}
+
+          <div class="card p-4">
+            <form method="POST" action="{{ url_for('login') }}" enctype="multipart/form-data" novalidate>
+              <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input
+                  type="text"
+                  id="username"
+                  class="form-control"
+                  value="gibbon"
+                  readonly
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="file" class="form-label">Password File</label>
+                <input
+                  class="form-control"
+                  type="file"
+                  id="file"
+                  name="file"
+                  accept="image/*"
+                  required
+                  aria-describedby="fileHelp"
+                />
+              </div>
+
+              <div class="mb-3">
+                <img id="preview" class="img-preview border" alt="preview" />
+              </div>
+
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary btn-lg">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const fileInput = document.getElementById('file');
+      const preview = document.getElementById('preview');
+      fileInput.addEventListener('change', () => {
+        const f = fileInput.files?.[0];
+        if (!f) { preview.style.display = 'none'; preview.src = ''; return; }
+        const url = URL.createObjectURL(f);
+        preview.src = url;
+        preview.style.display = 'block';
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

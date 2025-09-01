@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your answer</title>
+    <style nonce="<%= nonce %>">
+      body {
+        font-family: sans-serif;
+        max-width: 800px;
+        margin: 2em auto;
+      }
+      label {
+        display: block;
+        margin-top: 1em;
+      }
+      button {
+        margin-top: 1.5em;
+      }
+      #msg {
+        margin-top: 1em;
+        color: red;
+      }
+      
+      div.content {
+          padding: 16px 8px;
+      }      
+    </style>
+  </head>
+  <body>
+    <h1><%= answer.text %></h1>
+    <small>
+      <%= new Date(answer.created_at).toLocaleString({ year: 'numeric', month:
+      '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }) %>
+    </small>
+    <div class="content"><%- answer.content %></div>
+    <a href="/report?id=<%= answer.id %>">Send this answer to Asusn</a>
+  </body>
+</html>

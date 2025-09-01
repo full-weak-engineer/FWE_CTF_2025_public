@@ -1,0 +1,18 @@
+secrets:
+   flag:
+     environment: FLAG
+services:
+  app:
+    image: fwectf/weakness_in_the_middle
+    build:
+      context: .
+    environment:
+      PASS: ${PASS?must_set_PASS}
+    ports:
+      - "${PORT?must_set_PORT}:8080"
+    secrets:
+      - source: flag
+        target: /flag.txt
+        uid: "0"
+        gid: "0"
+        mode: 0o400

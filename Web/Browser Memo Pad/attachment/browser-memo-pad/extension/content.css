@@ -1,0 +1,9 @@
+.memo-save-button {
+    font-family: Arial, sans-serif;
+    user-select: none;
+    transition: background-color 0.2s;
+}
+
+.memo-save-button:hover {
+    background: #45a049 !important;
+}
