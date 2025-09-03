@@ -2,7 +2,7 @@
 
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
-|Misc|Poison Apple|JUCK|Medium|100|444|
+|Misc|Poison Apple|JUCK|Beginner|100|444|
 ## Description(問題文)
 
 iOSではウォッチドッグタイマが故障した時に返ってくる不思議な4バイトがあるらしい…

@@ -2,7 +2,7 @@
 
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
-|Crypto|Multi ﾊﾟﾜｰ RSA|chama|Medium|414|20|
+|Crypto|Multi ﾊﾟﾜｰ RSA|chama|Hard|414|20|
 ## Description(問題文)
 
 ﾊﾟﾜｰ is power

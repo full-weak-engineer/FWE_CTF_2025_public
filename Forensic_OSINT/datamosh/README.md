@@ -2,7 +2,7 @@
 
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
-|Forensic/OSINT|datamosh|Atsushi2965, asusn|Medium|106|294|
+|Forensic/OSINT|datamosh|Atsushi2965, asusn|Beginner|106|294|
 ## Description(問題文)
 
 データモッシュ作ってみた！　けど､あれ？　普段のプレイヤーで再生できないな……｡  

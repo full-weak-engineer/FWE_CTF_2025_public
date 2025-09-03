@@ -2,7 +2,7 @@
 
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
-|Rev|reeeeeee|t-chen|Medium|487|4|
+|Rev|reeeeeee|t-chen|Easy|487|4|
 ## Description(問題文)
 
 ^re{7}$

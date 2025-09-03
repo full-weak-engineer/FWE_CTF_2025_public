@@ -2,7 +2,7 @@
 
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
-|Forensic/OSINT|GeoGuessr2|*anonymous*|Medium|100|320|
+|Forensic/OSINT|GeoGuessr2|*anonymous*|Easy|100|320|
 ## Description(問題文)
 
 この写真を撮っている人の座標を指定してください。

@@ -2,7 +2,7 @@
 
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
-|Pwn|Future Without Escape|t-chen, ryhtbsh|Medium|500|1|
+|Pwn|Future Without Escape|t-chen, ryhtbsh|Hard|500|1|
 ## Description(問題文)
 
 There will be no exit

@@ -2,7 +2,7 @@
 
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
-|Pwn|Julia ni Jailbreak|t-chen|Medium|500|1|
+|Pwn|Julia ni Jailbreak|t-chen|Hard|500|1|
 ## Description(問題文)
 
 https://youtu.be/vdPIPVsx0B0

@@ -2,7 +2,7 @@
 
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
-|Forensic/OSINT|Osaka Expo Pavilion Quiz!|siruma|Medium|256|78|
+|Forensic/OSINT|Osaka Expo Pavilion Quiz!|siruma|Easy|256|78|
 ## Description(問題文)
 
 大阪万博…だけど様子がちょっと変？

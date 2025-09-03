@@ -2,7 +2,7 @@
 
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
-|Rev|vvvmmm|こーふ|Medium|500|1|
+|Rev|vvvmmm|こーふ|Hard|500|1|
 ## Description(問題文)
 
 VM入ってる

@@ -2,7 +2,7 @@
 
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
-|Pwn|Pwn Me Baby|こーふ|Medium|153|178|
+|Pwn|Pwn Me Baby|こーふ|Beginner|153|178|
 ## Description(問題文)
 
 Baby, please pwn me.

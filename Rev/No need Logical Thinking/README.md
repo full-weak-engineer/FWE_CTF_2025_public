@@ -2,7 +2,7 @@
 
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
-|Rev|No need Logical Thinking|JUCK|Medium|132|219|
+|Rev|No need Logical Thinking|JUCK|Easy|132|219|
 ## Description(問題文)
 
 論理的思考はどんな物事にも必要。
