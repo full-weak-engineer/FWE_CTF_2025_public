@@ -10,6 +10,7 @@
 |---|---|---|---|---|---|---|---|
 |Welcome|[Welcome](Welcome/Welcome)|**Full Weak Engineer**||||522|10|
 |Misc|[Poison Apple](Misc/Poison%20Apple)|JUCK|[ja](https://zenn.dev/juck28/articles/a82cfdec0c136f#poison-apple)|Beginner||444|100|
+|Misc|[Adversarial Login](Misc/Adversarial%20Login)|kariiho||Medium||95|230|
 |Misc|[Flagcraft](Misc/Flagcraft)|こーふ|[ja](https://zenn.dev/koufu193/articles/b0aa6291d5655c#flagcraft(misc%2C-easy))|Easy||67|277|
 |Misc|[Save the Kappa](Misc/Save%20the%20Kappa)|colza, kariiho|[en](https://github.com/colza12/FullWeakEngineerCTF2025_author-s_writeups/tree/main/Save_the_Kappa)|Medium|Blockchain|40|344|
 |Misc|[64jail](Misc/64jail)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/64jail/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/64jail/README.md)|Medium|Jail|6|478|
@@ -23,7 +24,6 @@
 |Forensic/OSINT|[GeoGuessr4](Forensic_OSINT/GeoGuessr4)|*anonymous* (kariiho)||Hard|OSINT|217|133|
 |Forensic/OSINT|[EXIT](Forensic_OSINT/EXIT)|*anonymous* (colza)|[en](https://github.com/colza12/FullWeakEngineerCTF2025_author-s_writeups/tree/main/EXIT)|Medium|OSINT|189|147|
 |Forensic/OSINT|[QR](Forensic_OSINT/QR)|r_k01m||Beginner|Forensic|110|211|
-|Misc|[Adversarial Login](Misc/Adversarial%20Login)|kariiho||Medium||95|230|
 |Forensic/OSINT|[Osaka Expo Pavilion Quiz!](Forensic_OSINT/Osaka%20Expo%20Pavilion%20Quiz!)|siruma||Easy|OSINT|78|256|
 |Forensic/OSINT|[MYAKUMYAKU TOWER](Forensic_OSINT/MYAKUMYAKU%20TOWER)|*anonymous* (asusn)|[ja](https://zenn.dev/asusn/articles/e03d1a2ebf271c#myakumyaku-tower-(76-solve-%2F-733-team))|Medium|OSINT|76|260|
 |Forensic/OSINT|[git predator](Forensic_OSINT/git%20predator)|r_k01m||Easy|OSINT|67|277|
@@ -42,7 +42,6 @@
 |Rev|[I_HATE_DEBUGGING](Rev/I%20HATE%20DEBUGGING)|r_k01m||Medium||25|395|
 |Rev|[A](Rev/A)|こーふ|[ja](https://zenn.dev/koufu193/articles/b0aa6291d5655c#a(rev%2C-medium))|Medium||10|459|
 |Rev|[reeeeeee](Rev/reeeeeee)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/reeeeeee/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/reeeeeee/README.md)|Easy||4|487|
-|Crypto|[Multi ﾊﾟﾜｰ RSA](Crypto/Multi%20ﾊﾟﾜｰ%20RSA)|
 |Rev|[NativeKotlian](Rev/NativeKotlian)|こーふ|[ja](https://zenn.dev/koufu193/articles/b0aa6291d5655c#nativekotlian(rev%2C-hard))|Hard||2|497|
 |Rev|[vvvmmm](Rev/vvvmmm)|こーふ|[ja](https://zenn.dev/koufu193/articles/b0aa6291d5655c#vvvmmm-(rev%2C-hard))|Hard||1|500|
 |Pwn|[Pwn Me Baby](Pwn/Pwn%20Me%20Baby)|こーふ|[ja](https://zenn.dev/koufu193/articles/b0aa6291d5655c#pwn-me-baby(pwn%2C-beginner))|Beginner||178|153|
@@ -50,7 +49,7 @@
 |Pwn|[Iconv Service](Pwn/Iconv%20Service)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Iconv%20Service/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Iconv%20Service/README.md)|Easy||10|459|
 |Pwn|[filter](Pwn/filter)|ryhtbsh||Medium||2|497|
 |Pwn|[cknote](Pwn/cknote)|ryhtbsh||Medium||2|497|
-|Pwn|[Julia ni Jailbreak](Pwn/Julia%20ni%20Jailbreak)|t-chen||hard|Jail|1|500|
+|Pwn|[Julia ni Jailbreak](Pwn/Julia%20ni%20Jailbreak)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README.md)|Hard|Jail|1|500|
 |Pwn|[Future Without Escape](Pwn/Future%20Without%20Escape)|t-chen, ryhtbsh|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README.md)|Hard|Jail|1|500|
 |Web|[regex-auth](Web/regex-auth)|Alphe|[ja](https://zenn.dev/alphe/articles/aa23ae6300af8f#%5Bweb%5D-regex-auth)|Beginner||450|100|
 |Web|[AED](Web/AED)|siruma||Easy||232|127|
