@@ -23,10 +23,10 @@
 |Forensic/OSINT|[RSA Phone Tree](Forensic_OSINT/RSA%20Phone%20Tree)|hatosable|[ja](https://note.com/elbasable_81018/n/n86842f2ad799)|Medium|Crypto, Forensic|240|124|
 |Forensic/OSINT|[GeoGuessr4](Forensic_OSINT/GeoGuessr4)|*anonymous* (kariiho)||Hard|OSINT|217|133|
 |Forensic/OSINT|[EXIT](Forensic_OSINT/EXIT)|*anonymous* (colza)|[en](https://github.com/colza12/FullWeakEngineerCTF2025_author-s_writeups/tree/main/EXIT)|Medium|OSINT|189|147|
-|Forensic/OSINT|[QR](Forensic_OSINT/QR)|r_k01m||Beginner|Forensic|110|211|
+|Forensic/OSINT|[QR](Forensic_OSINT/QR)|r_k01m|[ja](https://qiita.com/r_k01m/items/e52183c600e913a97288#qr-forensicosint)|Beginner|Forensic|110|211|
 |Forensic/OSINT|[Osaka Expo Pavilion Quiz!](Forensic_OSINT/Osaka%20Expo%20Pavilion%20Quiz!)|siruma|[ja, en](https://zenn.dev/siruma/articles/f068760de2d7d2#osaka-expo-pavilion-quiz!(256pt%2C78-solve))|Easy|OSINT|78|256|
 |Forensic/OSINT|[MYAKUMYAKU TOWER](Forensic_OSINT/MYAKUMYAKU%20TOWER)|*anonymous* (asusn)|[ja](https://zenn.dev/asusn/articles/e03d1a2ebf271c#myakumyaku-tower-(76-solve-%2F-733-team))|Medium|OSINT|76|260|
-|Forensic/OSINT|[git predator](Forensic_OSINT/git%20predator)|r_k01m||Easy|OSINT|67|277|
+|Forensic/OSINT|[git predator](Forensic_OSINT/git%20predator)|r_k01m|[ja](https://qiita.com/r_k01m/items/e52183c600e913a97288#git-predator)|Easy|OSINT|67|277|
 |Forensic/OSINT|[Sharkshop](Forensic_OSINT/Sharkshop)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Sharkshop/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Sharkshop/README.md)|Medium|Forensic, Web|13|445|
 |Crypto|[baby-crypto](Crypto/baby-crypto)|こーふ|[ja](https://zenn.dev/koufu193/articles/b0aa6291d5655c#baby-crypto(crypto%2C-beginner))|Beginner||563|100|
 |Crypto|[base🚀](Crypto/base🚀)|asusn|[ja](https://zenn.dev/asusn/articles/e03d1a2ebf271c#base%F0%9F%9A%80-(316-solve-%2F-733-team))|Easy||316|101|
@@ -36,10 +36,10 @@
 |Crypto|[unixor](Crypto/unixor)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/unixor/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/unixor/README.md)|Easy||47|324|
 |Crypto|[Multi ﾊﾟﾜｰ RSA](Crypto/Multi%20ﾊﾟﾜｰ%20RSA)|chama||Hard||20|414|
 |Crypto|[Advanced Emergency System](Crypto/Advanced%20Emergency%20System)|Atsushi2965||Medium|Forensic|11|454|
-|Rev|[strings jacking](Rev/strings%20jacking)|r_k01m|[ja](https://zenn.dev/juck28/articles/a82cfdec0c136f)|Beginner||447|100|
+|Rev|[strings jacking](Rev/strings%20jacking)|r_k01m|[ja](https://qiita.com/r_k01m/items/e52183c600e913a97288#strings-jacking-rev)|Beginner||447|100|
 |Rev|[No need Logical Thinking](Rev/No%20need%20Logical%20Thinking)|JUCK|[ja](https://zenn.dev/juck28/articles/a82cfdec0c136f#mystery-zone(%E3%81%AA%E3%81%9E%E3%81%AE%E3%81%B0%E3%81%97%E3%82%87))|Easy||219|132|
 |Rev|[Mystery Zone](Rev/Mystery%20Zone)|Atsushi2965, JUCK|[ja](https://zenn.dev/juck28/articles/a82cfdec0c136f#mystery-zone(%E3%81%AA%E3%81%9E%E3%81%AE%E3%81%B0%E3%81%97%E3%82%87))|Medium||97|227|
-|Rev|[I_HATE_DEBUGGING](Rev/I%20HATE%20DEBUGGING)|r_k01m||Medium||25|395|
+|Rev|[I_HATE_DEBUGGING](Rev/I%20HATE%20DEBUGGING)|r_k01m||Medium|[ja](https://qiita.com/r_k01m/items/e52183c600e913a97288#i_hate_debugging-rev)|25|395|
 |Rev|[A](Rev/A)|こーふ|[ja](https://zenn.dev/koufu193/articles/b0aa6291d5655c#a(rev%2C-medium))|Medium||10|459|
 |Rev|[reeeeeee](Rev/reeeeeee)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/reeeeeee/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/reeeeeee/README.md)|Easy||4|487|
 |Rev|[NativeKotlian](Rev/NativeKotlian)|こーふ|[ja](https://zenn.dev/koufu193/articles/b0aa6291d5655c#nativekotlian(rev%2C-hard))|Hard||2|497|
