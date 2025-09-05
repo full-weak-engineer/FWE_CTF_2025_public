@@ -21,8 +21,5 @@
   },
   "icons": {
     "48": "icon48.png"
-  },
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'"
   }
 }
