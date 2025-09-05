@@ -18,13 +18,13 @@
 |Misc|[Future With Escape](Misc/Future%20With%20Escape)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20With%20Escape/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20With%20Escape/README.md)|Hard|Jail|1|500|
 |Forensic/OSINT|[GeoGuessr1](Forensic_OSINT/GeoGuessr1)|*anonymous* (kariiho)|| Beginner|OSINT|404|100|
 |Forensic/OSINT|[GeoGuessr2](Forensic_OSINT/GeoGuessr2)|*anonymous* (kariiho)||Easy|OSINT|320|100|
-|Forensic/OSINT|[GeoGuessr3](Forensic_OSINT/GeoGuessr3)|*anonymous* (siruma)||Medium|OSINT|318|100|
+|Forensic/OSINT|[GeoGuessr3](Forensic_OSINT/GeoGuessr3)|*anonymous* (siruma)|[ja, en](https://zenn.dev/siruma/articles/f068760de2d7d2#geoguessr3(100pt%2C318-solve))|Medium|OSINT|318|100|
 |Forensic/OSINT|[datamosh](Forensic_OSINT/datamosh)|Atsushi2965, asusn||Beginner|Forensic|294|106|
 |Forensic/OSINT|[RSA Phone Tree](Forensic_OSINT/RSA%20Phone%20Tree)|hatosable|[ja](https://note.com/elbasable_81018/n/n86842f2ad799)|Medium|Crypto, Forensic|240|124|
 |Forensic/OSINT|[GeoGuessr4](Forensic_OSINT/GeoGuessr4)|*anonymous* (kariiho)||Hard|OSINT|217|133|
 |Forensic/OSINT|[EXIT](Forensic_OSINT/EXIT)|*anonymous* (colza)|[en](https://github.com/colza12/FullWeakEngineerCTF2025_author-s_writeups/tree/main/EXIT)|Medium|OSINT|189|147|
 |Forensic/OSINT|[QR](Forensic_OSINT/QR)|r_k01m||Beginner|Forensic|110|211|
-|Forensic/OSINT|[Osaka Expo Pavilion Quiz!](Forensic_OSINT/Osaka%20Expo%20Pavilion%20Quiz!)|siruma||Easy|OSINT|78|256|
+|Forensic/OSINT|[Osaka Expo Pavilion Quiz!](Forensic_OSINT/Osaka%20Expo%20Pavilion%20Quiz!)|siruma|[ja, en](https://zenn.dev/siruma/articles/f068760de2d7d2#osaka-expo-pavilion-quiz!(256pt%2C78-solve))|Easy|OSINT|78|256|
 |Forensic/OSINT|[MYAKUMYAKU TOWER](Forensic_OSINT/MYAKUMYAKU%20TOWER)|*anonymous* (asusn)|[ja](https://zenn.dev/asusn/articles/e03d1a2ebf271c#myakumyaku-tower-(76-solve-%2F-733-team))|Medium|OSINT|76|260|
 |Forensic/OSINT|[git predator](Forensic_OSINT/git%20predator)|r_k01m||Easy|OSINT|67|277|
 |Forensic/OSINT|[Sharkshop](Forensic_OSINT/Sharkshop)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Sharkshop/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Sharkshop/README.md)|Medium|Forensic, Web|13|445|
@@ -52,7 +52,7 @@
 |Pwn|[Julia ni Jailbreak](Pwn/Julia%20ni%20Jailbreak)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README.md)|Hard|Jail|1|500|
 |Pwn|[Future Without Escape](Pwn/Future%20Without%20Escape)|t-chen, ryhtbsh|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README.md)|Hard|Jail|1|500|
 |Web|[regex-auth](Web/regex-auth)|Alphe|[ja](https://zenn.dev/alphe/articles/aa23ae6300af8f#%5Bweb%5D-regex-auth)|Beginner||450|100|
-|Web|[AED](Web/AED)|siruma||Easy||232|127|
+|Web|[AED](Web/AED)|siruma||Easy|[ja, en](https://zenn.dev/siruma/articles/f068760de2d7d2#aed(127pt%2C232-solve))|232|127|
 |Web|[Personal Website](Web/Personal%20Website)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Personal%20Website/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Personal%20Website/README.md)|Medium||11|454|
 |Web|[Browser Memo Pad](Web/Browser%20Memo%20Pad)|Alphe|[ja](https://zenn.dev/alphe/articles/aa23ae6300af8f#%5Bweb%5D-browser-memo-pad)|Medium||8|468|
 |Web|[SotaFuji](Web/SotaFuji)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/SotaFuji/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/SotaFuji/README.md)|Medium||1|500|
