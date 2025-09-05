@@ -39,7 +39,7 @@
 |Rev|[strings jacking](Rev/strings%20jacking)|r_k01m|[ja](https://qiita.com/r_k01m/items/e52183c600e913a97288#strings-jacking-rev)|Beginner||447|100|
 |Rev|[No need Logical Thinking](Rev/No%20need%20Logical%20Thinking)|JUCK|[ja](https://zenn.dev/juck28/articles/a82cfdec0c136f#mystery-zone(%E3%81%AA%E3%81%9E%E3%81%AE%E3%81%B0%E3%81%97%E3%82%87))|Easy||219|132|
 |Rev|[Mystery Zone](Rev/Mystery%20Zone)|Atsushi2965, JUCK|[ja](https://zenn.dev/juck28/articles/a82cfdec0c136f#mystery-zone(%E3%81%AA%E3%81%9E%E3%81%AE%E3%81%B0%E3%81%97%E3%82%87))|Medium||97|227|
-|Rev|[I_HATE_DEBUGGING](Rev/I%20HATE%20DEBUGGING)|r_k01m||Medium|[ja](https://qiita.com/r_k01m/items/e52183c600e913a97288#i_hate_debugging-rev)|25|395|
+|Rev|[I_HATE_DEBUGGING](Rev/I%20HATE%20DEBUGGING)|r_k01m|[ja](https://qiita.com/r_k01m/items/e52183c600e913a97288#i_hate_debugging-rev)|Medium||25|395|
 |Rev|[A](Rev/A)|こーふ|[ja](https://zenn.dev/koufu193/articles/b0aa6291d5655c#a(rev%2C-medium))|Medium||10|459|
 |Rev|[reeeeeee](Rev/reeeeeee)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/reeeeeee/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/reeeeeee/README.md)|Easy||4|487|
 |Rev|[NativeKotlian](Rev/NativeKotlian)|こーふ|[ja](https://zenn.dev/koufu193/articles/b0aa6291d5655c#nativekotlian(rev%2C-hard))|Hard||2|497|
@@ -52,7 +52,7 @@
 |Pwn|[Julia ni Jailbreak](Pwn/Julia%20ni%20Jailbreak)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README.md)|Hard|Jail|1|500|
 |Pwn|[Future Without Escape](Pwn/Future%20Without%20Escape)|t-chen, ryhtbsh|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape/README.md)|Hard|Jail|1|500|
 |Web|[regex-auth](Web/regex-auth)|Alphe|[ja](https://zenn.dev/alphe/articles/aa23ae6300af8f#%5Bweb%5D-regex-auth)|Beginner||450|100|
-|Web|[AED](Web/AED)|siruma||Easy|[ja, en](https://zenn.dev/siruma/articles/f068760de2d7d2#aed(127pt%2C232-solve))|232|127|
+|Web|[AED](Web/AED)|siruma|[ja, en](https://zenn.dev/siruma/articles/f068760de2d7d2#aed(127pt%2C232-solve))|Easy||232|127|
 |Web|[Personal Website](Web/Personal%20Website)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Personal%20Website/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/Personal%20Website/README.md)|Medium||11|454|
 |Web|[Browser Memo Pad](Web/Browser%20Memo%20Pad)|Alphe|[ja](https://zenn.dev/alphe/articles/aa23ae6300af8f#%5Bweb%5D-browser-memo-pad)|Medium||8|468|
 |Web|[SotaFuji](Web/SotaFuji)|t-chen|[ja](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/SotaFuji/README-ja.md), [en](https://github.com/tepel-chen/My-CTF-Challs/blob/main/Full%20Weak%20Engineer%20CTF%202025/SotaFuji/README.md)|Medium||1|500|
