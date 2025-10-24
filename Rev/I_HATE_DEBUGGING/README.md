@@ -1,5 +1,7 @@
 # I_HATE_DEBUGGING
 
+Link to full [source](https://github.com/k0011m/I_HATE_DEBUG)
+
 |ジャンル|問題名|作問者|タグ|最終スコア|Solve数|
 |---|---|---|---|---|---|
 |Rev|I_HATE_DEBUGGING|r_k01m|Medium|395|25|
